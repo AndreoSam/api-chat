@@ -29,6 +29,7 @@ const MessageInput = ({ onSendMessage, disabled }) => {
                     onKeyPress={handleKeyPress}
                     placeholder="Type your message here..."
                     disabled={disabled}
+                    autoFocus
                     className="message-input-field"
                 />
                 <button
